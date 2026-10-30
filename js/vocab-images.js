@@ -446,24 +446,24 @@ const VOCAB_IMAGES = {
 };
 
 function normalizeVocabKey(str) {
-  if (!str) return ;
+  if (!str) return "";
   return str.toLowerCase()
-    .replace(/^(der|die|das|ein|eine)\s+/i, )
-    .replace(/ä/g, ae)
-    .replace(/ö/g, oe)
-    .replace(/ü/g, ue)
-    .replace(/ß/g, ss)
-    .replace(/[^a-z]/g, );
+    .replace(/^(der|die|das|ein|eine)\s+/i, "")
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z]/g, "");
 }
 
 function normalizeVocabKeyWithoutParen(str) {
-  if (!str) return ;
-  const noParen = str.replace(/\s*\([^\)]*\)/g, );
+  if (!str) return "";
+  const noParen = str.replace(/\s*\([^\)]*\)/g, "");
   return normalizeVocabKey(noParen);
 }
 
 function getVocabImage(r) {
-  if (!r) return ;
+  if (!r) return "";
   if (r.img) return r.img;
   
   // 1. Probar alemán directo y sin paréntesis
@@ -478,5 +478,5 @@ function getVocabImage(r) {
   const kEnNoParen = normalizeVocabKeyWithoutParen(r.en);
   if (kEnNoParen && VOCAB_IMAGES[kEnNoParen]) return VOCAB_IMAGES[kEnNoParen];
   
-  return ;
+  return "";
 }
