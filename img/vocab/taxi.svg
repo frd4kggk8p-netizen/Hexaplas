@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="16" fill="#f8fafc"/>
+  <rect x="42" y="24" width="16" height="6" fill="#facc15" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="44" y="29" font-family="sans-serif" font-weight="bold" font-size="5" fill="#1e293b">TAXI</text>
+  <path d="M22,60 L30,42 C32,36 36,34 44,34 L56,34 C64,34 68,36 70,42 L78,60 L82,66 C82,70 79,72 74,72 L26,72 C21,72 18,70 18,66 Z" fill="#facc15" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="32" cy="72" r="7" fill="#1e293b"/>
+  <circle cx="68" cy="72" r="7" fill="#1e293b"/>
+</svg>
