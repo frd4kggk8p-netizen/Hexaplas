@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-morgen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7fc4e8"/>
+      <stop offset="65%" stop-color="#fbd278"/>
+      <stop offset="100%" stop-color="#f89f61"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="16" fill="url(#grad-morgen)"/>
+  <circle cx="50" cy="62" r="22" fill="#fff5cc"/>
+  <g stroke="#fff5cc" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+    <line x1="50" y1="28" x2="50" y2="34"/>
+    <line x1="26" y1="38" x2="31" y2="42"/>
+    <line x1="74" y1="38" x2="69" y2="42"/>
+    <line x1="16" y1="62" x2="22" y2="62"/>
+    <line x1="84" y1="62" x2="78" y2="62"/>
+  </g>
+  <path d="M0 72 Q35 64 70 73 T100 70 L100 100 L0 100 Z" fill="#2d6a4f"/>
+  <path d="M0 80 Q45 74 80 81 T100 79 L100 100 L0 100 Z" fill="#1b4332"/>
+</svg>
